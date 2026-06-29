@@ -1,0 +1,20 @@
+#>>>RUN: L1.1-runcell01
+import numpy as np
+x = np.linspace(start=-4, stop=4, num=5) # make an array of 5 numbers, evenly spaced from -4 to 4
+y = np.sin(x) # take the sine of each element of x, to get a new array, y
+
+print("x: ", x)
+print("y: ", y)
+
+# #Try changing the array to include the range [-10,10]
+
+# import scipy as stats
+# x = np.linspace(start=-4, stop =4, num=100)
+# #x axis is defined as -4 to 4, with 100 intervals in between
+# print (x)
+# #shows the full distribution of x axis
+# mu = 0
+# std = 1
+# y = stats.norm.pdf(x, mu, std)
+# plt.grid()
+# plt.show()
