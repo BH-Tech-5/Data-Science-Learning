@@ -18,3 +18,5 @@ print("y: ", y)
 # y = stats.norm.pdf(x, mu, std)
 # plt.grid()
 # plt.show()
+
+# Ran into a roadblock here with calling the plot functions... not sure if it's a library import issue.
